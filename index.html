@@ -5,29 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Block og inline</title>
     <style>
+        .blue{
+            color: blue;
+        }
+        p{
+            color: greenyellow;
+            background-color: yellow;
+        }
+        .oppgave-2{
+            color: black;
+        }
     </style>
 </head>
 <body>
+    <h1>Oppgave 1</h1>
     <div style="border: 5px solid; width: 240px; text-align: center;">
         <h1>Overskrift</h1>
 
-        <p>html, css og java</p>
-        <p>tekst med <span><b>viktig</b></span> informasjon</p>
+        <p style="background-color: white; color: black;">html, css og java</p>
+        <p style="background-color: white; color: black;">tekst med <span><b>viktig</b></span> informasjon</p>
     </div>
-    <p>Block-elementer starter vanligvis på en ny linje og tar hele bredden de kan få.</p>
+    <p style="background-color: white; color: black;">Block-elementer starter vanligvis på en ny linje og tar hele bredden de kan få.</p>
     <span>Inline-elementer ligger videre på samme linje og tar bare plassen innholdet trenger.</span>
     <span> a er inline som standard.</span>
     
-    <h1>oppgave 2</h1>
+    <h1>Oppgave 2</h1>
         <span style="font-size: 2em; color: red;">***</span><br />
     <span style="font-size: 1em; color: red;">***</span>
 
-    <p style="color: green; font-size: large;">potet</p>
-    <p style="color: green; font-size: large;">potet</p>
-    <p style="color: green; font-size: large;">potet</p>
+    <p style="color: green; font-size: large; background-color: white; color: black;">potet</p>
+    <p style="color: green; font-size: large; background-color: white; color: black;">potet</p>
+    <p style="color: green; font-size: large; background-color: white; color: black;">potet</p>
 
-    <pre style="color: blue; font-size: xx-small;">BOB</pre>
+    <pre style="color: blue; font-size: xx-small; background-color: white; color: black;">BOB</pre>
 
-    <p>Class kan brukes på flere elementer, mens en id vanligvis skal være unik og brukes på ett element.</p>
+    <p class="oppgave-2">Class kan brukes på flere elementer, mens en id vanligvis skal være unik og brukes på ett element.</p>
+
+    <h1>Oppgave 3</h1>
+
+    <p style="color: lightblue;">Hei</p>
+    <p class="blue">Hei</p>
+    <p>Hei</p>
 </body>
 </html>
